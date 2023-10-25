@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Imagenes/Logo.png">
+    <title>msRed</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+              msRed
+            </a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"><b>Inicio</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="normas.html"><b>Normas</b></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="direcciones.html"><b>Direcciones IP</b></a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Redes</b></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="redes.html">¿Qué es una red?</a></li>
+                  <li><a class="dropdown-item" href="red-clases.html">clases de redes</a></li>
+                  <li><a class="dropdown-item" href="topologias.html">Topologías de red</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Dispositivos</b></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="dispositivos.html">Sección 1</a></li>
+                  <li><a class="dropdown-item" href="seccion.html">Sección 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Herramientas</b></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="herramientas.html">Herramientas de red</a></li>
+                  <li><a class="dropdown-item" href="cablesUTP.html">Cables UTP</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="usar.html">Hacer un cable</a></li>
+                </ul>
+              </li>
+          </ul>
+        </div>
+        </nav>
+      </header>
+      </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="text">Clases de redes</h2>
+            <p class="text">
+              Existen diferentes clases de redes según su tamaño, su velocidad de transferencia de datos y su alcance. Generalmente se dice que existen tres categorías de redes: Red de área local (LAN), red de área metropolitana (MAN) y red de área extensa (WAN). según su tamaño se clasifican en:<br><b>Area Network (LAN);</b> se conectan varios equipos con un alcance limitado por medio de cables o por la potencia de las antenas inalambricas.<br>
+             <br><b>Metropolitan Area Network (MAN);</b> cuya característica principal es que abarca un área más extensa (50 km aproximadamente). Dicha extensión permite el alcance de varias edificaciones o conjunto de LAN dentro del área metropolitana específica.<br>
+              <br> <b>Wide Area Network (WAN);</b> es una red de área extensa, el alcance de una red WAN es: ciudades, países y continentes. El entorno de conexión es extenso, intervienen todos los dispositivos y las redes conectadas en dicha red.<br>
+          </p> 
+          </div>
+          <div class="col-lg-6">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="Imagenes/Lan.jpg" class="d-block w-100" alt="..." width="500px" height="400px">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="Imagenes/Man2.jpg" class="d-block w-100" alt="..." width="500px" height="400px">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imagenes/Wan.jpg" class="d-block w-100" alt="..." width="500px" height="400px">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+<footer>
+  <p class="text-f">
+    Este sitio fue creado para brindarle a sus usuarios información con respecto a las redes<br>
+    Si quieres expresar una opinión a sus desarrolladores puedes hacerlo aquí:<br>
+    <a href="mailto:msredopinion@gmail.com">msredopinion</a>
+  </p>
+</footer>
+</html>

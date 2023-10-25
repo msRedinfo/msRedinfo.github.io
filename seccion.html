@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Imagenes/Logo.png">
+    <title>msRed</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <header>
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                msRed
+              </a>
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"><b>Inicio</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="normas.html"><b>Normas</b></a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="direcciones.html"><b>Direcciones IP</b></a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Redes</b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="redes.html">¿Qué es una red?</a></li>
+                    <li><a class="dropdown-item" href="red-clases.html">clases de redes</a></li>
+                    <li><a class="dropdown-item" href="topologias.html">Topologías de red</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Dispositivos</b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="dispositivos.html">Sección 1</a></li>
+                    <li><a class="dropdown-item" href="seccion.html">Sección 2</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Herramientas</b></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="herramientas.html">Herramientas de red</a></li>
+                    <li><a class="dropdown-item" href="cablesUTP.html">Cables UTP</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="usar.html">Hacer un cable</a></li>
+                  </ul>
+                </li>
+            </ul>
+          </div>
+          </nav>
+        </header>
+        </div>
+        <div class="row"> 
+            <div class="col-lg-6">
+                <h3 class="text">Bright o puente</h3>
+                <p class="text">
+                    Bridge o puente de red enlaza dos o más dispositivos o secciones de red juntos y ejecuta a nivel de conexión de datos. El servicio básico de los puentes en la arquitectura de red es guardar y reenviar tramas de datos entre las distintas secciones que se enlaza el puente.<br>
+
+                      Para la transferencia de imágenes, utiliza hardware de control de acceso a medios (MAC). Los puentes consiguen emitir los datos o bloquear el cruce revisando las direcciones MAC de los hosts unidos a cada línea. Asimismo es factible conectar dos LAN físicas con una LAN lógica más extensa a través de puentes.
+                </p>							
+                 <h3 class="text">Gateway o puerta de enlace</h3>
+                <p class="text">
+                    Las Gateway o puertas de enlace se encargan de traducir los datos enviados entre tecnologías de red como la interconexión de sistemas abiertos (OSI) y el protocolo de control de transmisión/protocolo de Internet (TCP/IP).<br>
+
+                           Por ende, las puertas de enlace conectan dos o más redes autónomas con algoritmos propios, protocolos, topología, sistema y política de nombres de dominio y gestión de red. Las Gateway controlan todas las funciones de direccionamiento y más.
+                </p>
+               <h3 class="text">Switch</h3>
+                <p class="text">
+                    El switch o conmutador de red es un aparato con múltiples puertos de conexión que intermedia en la unión de datos, cruzando datos de una sección a otra concorde con la dirección MAC de destino de las tramas en la red y suprimiendo la conexión una vez terminada. Estos son usados cuando se pretende interconectar múltiples tramos de una red, uniéndolos en una sola red. <br>El conmutador preserva información circunscrita sobre los nodos de enrutamiento en la red interna y suministra vínculos a sistemas como concentradores o enrutadores, lo que le admite aumentar la cabida de la red. De igual forma mejoran la seguridad de la red, puesto que el control de la red favorece la averiguación de los circuitos digitales.
+                </p>
+                 <h3 class="text">Módem</h3>
+                <p class="text">
+                    El módem transforma señales digitales (modulación) en señales analógicas (desmodulación) de distintas constancias y las transfiere a un módem en el puesto de recepción. posteriormente, el módem destinatario modifica de forma contraria las señales y concede una salida digital a un aparato unido a un módem, ordinariamente un computador.<br>De este modo, permite la comunicación entre los equipos por medio de la línea telefónica o cablemódem. Por lo regular, los datos digitales se trasladan hacia o desde el módem mediante una línea serial gracias a una interfaz estándar de la industria, RS-232.
+                   </p>
+            </div>
+            <div class="col-lg-6">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="Imagenes/bright_2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="Imagenes/Switch_2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagenes/Modem_2.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+    <footer>
+      <p class="text-f">
+        Este sitio fue creado para brindarle a sus usuarios información con respecto a las redes<br>
+        Si quieres expresar una opinión a sus desarrolladores puedes hacerlo aquí:<br>
+        <a href="mailto:msredopinion@gmail.com">msredopinion</a>
+      </p>
+    </footer>
+    </html>

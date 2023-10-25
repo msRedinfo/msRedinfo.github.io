@@ -1,0 +1,80 @@
+.carousel{
+    max-width: 800px;
+    top: 10%;
+    padding: 20px;
+}
+
+
+body{
+    background-image: url(fondo2_s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.text{
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+video{
+    display: block;
+    margin: 1em auto;
+    width: 80%;
+    height: calc(1.76666667 * vw);
+}
+
+.cont{
+    padding-left: 30px;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.row{
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-2{
+    text-align: center;
+    color: white;
+}
+
+.text-f{
+    color: whitesmoke;
+    text-align: unset;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-c{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: aqua;
+}

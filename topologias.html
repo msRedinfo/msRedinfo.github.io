@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Imagenes/Logo.png">
+    <title>msRed</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+              msRed
+            </a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"><b>Inicio</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="normas.html"><b>Normas</b></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="direcciones.html"><b>Direcciones IP</b></a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Redes</b></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="redes.html">¿Qué es una red?</a></li>
+                  <li><a class="dropdown-item" href="red-clases.html">clases de redes</a></li>
+                  <li><a class="dropdown-item" href="topologias.html">Topologías de red</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Dispositivos</b></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="dispositivos.html">Sección 1</a></li>
+                  <li><a class="dropdown-item" href="seccion.html">Sección 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Herramientas</b></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="herramientas.html">Herramientas de red</a></li>
+                  <li><a class="dropdown-item" href="cablesUTP.html">Cables UTP</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="usar.html">Hacer un cable</a></li>
+                </ul>
+              </li>
+          </ul>
+        </div>
+        </nav>
+      </header>
+      </div>
+        <div class="row">
+          <div class="col-lg-6">
+        <h3 class="text">Topologías</h3>
+        <P class="text">
+          La topología de red se define como la cadena de comunicación que los nodos que forman una red usan para comunicarse. Sus topologías pueden variar en: <Br>
+        </P>
+           <h3 class="text"><b>Topología de anillo</b></h3> <p class="text">Las estaciones están unidas formando un círculo por medio de un cable común. Se caracteriza por un camino unidireccional cerrado que conecta todos los nodos. Se centraliza el acceso a la red, si uno de los nodos falla, también falla la red. <br></p>
+           <h3 class="text"><b>Topología en estrella</b></h3><p class="text">La topología en estrella se caracteriza por tener todos sus nodos conectados a un controlador central. Todas las transacciones pasan a través del nodo central, siendo este el encargado de gestionar y controlar todas las comunicaciones.<br></p>
+            <h3 class="text"><b>Topología de doble anillo</b></h3><p class="text">Es igual a la topología de anillo, con la diferencia de que hay un segundo anillo redundante que conecta los mismos dispositivos en otras palabras para incrementar la fiabilidad y flexibilidad de la red, cada dispositivo de red forma parte de dos topologías de anillo independientes. La topología de anillo doble actúa como si fueran dos anillos independientes, de los cuales se usa solamente uno por vez.<Br>
+           Su mayor desventaja es el costo por qué se necesita el doble de cableado que en el simple.<Br>
+           En esta topología hay menos posibilidades de que la red se caiga y así en cualquier eventualidad estarás preparado y no perderás tiempo de reparándolas, si no que la podrás reparar a la vez que sigues trabajando, porque uno de los anillos sirve mientras que el otro dañado no sirve y puede verse afectado en su comportamiento en lo más mínimo.<br>
+          </p>
+            <h3 class="text"><b>Topología hibrida</b></h3> <p class="text">En la topología hibrida o topología mixta las redes pueden utilizar diversas topologías para conectarse.
+              La topología mixta es una de las más frecuentes y se deriva de la unión de varios tipos de topologías de red, de aquí el nombre de “mixtas” o “hibridas”
+              Su implementación se debe a la complejidad de la solución de red, o bien al aumento en el número de dispositivos, lo que hace necesario establecer una topología de este tipo. <br></p>
+              <h3 class="text"><b>Topologías de árbol</b></h3> <p class="text">La topología de árbol es la combinación de la topología de bus y la topología de estrella. Esta combinación permite a los usuarios tener varios servidores en la red. <Br>
+              La topología de árbol tiene un nodo central al cual se conectan todos los demás dispositivos para así construir una jerarquía, que debe tener como mínimo tres niveles.
+              La topología de árbol persigue un modelo jerárquico: por esta razón todo nivel se encuentra conectado al próximo nivel superior bajo un esquema simétrico.
+              Esta topología es mejor aplicarla cuando la red es de gran tamaño. No es recomendable para una red pequeña.
+              La topología de árbol es una combinación de dos topologías: la topología de bus y la topología de estrella.
+              En la topología de árbol cada computadora tiene una conexión directa a un concentrador y también cada parte de la red se encuentra conectada a un cable principal.
+              Ventajas: La topología de árbol reduce el tráfico de red. <br>
+   
+              <br>-Es compatible con muchos proveedores de hardware y software.
+   
+              <br>-Desventajas: Se requiere una enorme cantidad de cableado en comparación con  la topología de estrella y de bus.
+   
+              <br>-Cada vez que agreguemos más nodos. El mantenimiento se hace más difícil. Por lo tanto, se necesita mucho mantenimiento. <br>
+              </p>
+          </div>
+          <div class="col-lg-6">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="Imagenes/anillo.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="Imagenes/estrella.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imagenes/Doble.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imagenes/híbrida.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imagenes/arbol.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+<footer>
+  <p class="text-f">
+    Este sitio fue creado para brindarle a sus usuarios información con respecto a las redes<br>
+    Si quieres expresar una opinión a sus desarrolladores puedes hacerlo aquí:<br>
+    <a href="mailto:msredopinion@gmail.com">msredopinion</a>
+  </p>
+</footer>
+</html>
